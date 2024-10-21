@@ -28,7 +28,6 @@ body:
     attributes:
       label: Network Type
       description: Was the issue occurring over Wi-Fi, mobile data, or offline?
-      placeholder: e.g., Wi-Fi, 5G, offline
       options:
         - Wi-Fi 
         - 5G
