@@ -23,12 +23,17 @@ body:
       placeholder: e.g., 1.2.3
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: network
     attributes:
       label: Network Type
       description: Was the issue occurring over Wi-Fi, mobile data, or offline?
       placeholder: e.g., Wi-Fi, 5G, offline
+      options:
+        - Wi-Fi 
+        - 5G
+        - offline
+      default: 0
     validations:
       required: true
   - type: input
